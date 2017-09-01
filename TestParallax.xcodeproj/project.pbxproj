@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E279AF159F5D61ACAA02AED /* libPods-TestParallaxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BEAAA53BDCE8163DE8BB10 /* libPods-TestParallaxTests.a */; };
+		30FA0B74577082D1126F2F6D /* libPods-TestParallax.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD1DA516CEB740ACC1BB377 /* libPods-TestParallax.a */; };
+		CCABCFA767811A2D3670D05D /* libPods-TestParallaxUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B1BDC6B669EF0878C8AF17 /* libPods-TestParallaxUITests.a */; };
+		CCBE21EF1F590983008F754E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE21EE1F590983008F754E /* main.m */; };
+		CCBE21F21F590983008F754E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE21F11F590983008F754E /* AppDelegate.m */; };
+		CCBE21F51F590983008F754E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE21F41F590983008F754E /* ViewController.m */; };
+		CCBE21F81F590983008F754E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBE21F61F590983008F754E /* Main.storyboard */; };
+		CCBE21FA1F590983008F754E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBE21F91F590983008F754E /* Assets.xcassets */; };
+		CCBE21FD1F590983008F754E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBE21FB1F590983008F754E /* LaunchScreen.storyboard */; };
+		CCBE22081F590983008F754E /* TestParallaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE22071F590983008F754E /* TestParallaxTests.m */; };
+		CCBE22131F590983008F754E /* TestParallaxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE22121F590983008F754E /* TestParallaxUITests.m */; };
+		CCBE22231F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE22211F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.m */; };
+		CCBE22241F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCBE22221F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCBE22041F590983008F754E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCBE21E21F590983008F754E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCBE21E91F590983008F754E;
+			remoteInfo = TestParallax;
+		};
+		CCBE220F1F590983008F754E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCBE21E21F590983008F754E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCBE21E91F590983008F754E;
+			remoteInfo = TestParallax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E0E0C6BCA2AA7B6287A631 /* Pods-TestParallax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestParallax.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestParallax/Pods-TestParallax.debug.xcconfig"; sourceTree = "<group>"; };
+		63BEAAA53BDCE8163DE8BB10 /* libPods-TestParallaxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestParallaxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD1DA516CEB740ACC1BB377 /* libPods-TestParallax.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestParallax.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7639F442ACDE672E5B75E225 /* Pods-TestParallaxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestParallaxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestParallaxUITests/Pods-TestParallaxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E065091CBAA8B4BC42F08BE /* Pods-TestParallaxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestParallaxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestParallaxTests/Pods-TestParallaxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DBC4FBE52C80CBE6C4658F2 /* Pods-TestParallaxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestParallaxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestParallaxUITests/Pods-TestParallaxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3B1BDC6B669EF0878C8AF17 /* libPods-TestParallaxUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestParallaxUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBE21EA1F590983008F754E /* TestParallax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestParallax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBE21EE1F590983008F754E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCBE21F01F590983008F754E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCBE21F11F590983008F754E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCBE21F31F590983008F754E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCBE21F41F590983008F754E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCBE21F71F590983008F754E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCBE21F91F590983008F754E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCBE21FC1F590983008F754E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCBE21FE1F590983008F754E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBE22031F590983008F754E /* TestParallaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestParallaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBE22071F590983008F754E /* TestParallaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestParallaxTests.m; sourceTree = "<group>"; };
+		CCBE22091F590983008F754E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBE220E1F590983008F754E /* TestParallaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestParallaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBE22121F590983008F754E /* TestParallaxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestParallaxUITests.m; sourceTree = "<group>"; };
+		CCBE22141F590983008F754E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBE22201F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSpaceZoneArticleTableViewCell.h; sourceTree = "<group>"; };
+		CCBE22211F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALSpaceZoneArticleTableViewCell.m; sourceTree = "<group>"; };
+		CCBE22221F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALSpaceZoneArticleTableViewCell.xib; sourceTree = "<group>"; };
+		F35280C43BC300CC319499CD /* Pods-TestParallaxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestParallaxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestParallaxTests/Pods-TestParallaxTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA963DEC5DCAA35AB5318CBB /* Pods-TestParallax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestParallax.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestParallax/Pods-TestParallax.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCBE21E71F590983008F754E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FA0B74577082D1126F2F6D /* libPods-TestParallax.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE22001F590983008F754E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E279AF159F5D61ACAA02AED /* libPods-TestParallaxTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE220B1F590983008F754E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCABCFA767811A2D3670D05D /* libPods-TestParallaxUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42038DFD3347858F64029ADC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CD1DA516CEB740ACC1BB377 /* libPods-TestParallax.a */,
+				63BEAAA53BDCE8163DE8BB10 /* libPods-TestParallaxTests.a */,
+				C3B1BDC6B669EF0878C8AF17 /* libPods-TestParallaxUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD44BF4CD7145256F0EAC259 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18E0E0C6BCA2AA7B6287A631 /* Pods-TestParallax.debug.xcconfig */,
+				FA963DEC5DCAA35AB5318CBB /* Pods-TestParallax.release.xcconfig */,
+				7E065091CBAA8B4BC42F08BE /* Pods-TestParallaxTests.debug.xcconfig */,
+				F35280C43BC300CC319499CD /* Pods-TestParallaxTests.release.xcconfig */,
+				8DBC4FBE52C80CBE6C4658F2 /* Pods-TestParallaxUITests.debug.xcconfig */,
+				7639F442ACDE672E5B75E225 /* Pods-TestParallaxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCBE21E11F590983008F754E = {
+			isa = PBXGroup;
+			children = (
+				CCBE21EC1F590983008F754E /* TestParallax */,
+				CCBE22061F590983008F754E /* TestParallaxTests */,
+				CCBE22111F590983008F754E /* TestParallaxUITests */,
+				CCBE21EB1F590983008F754E /* Products */,
+				BD44BF4CD7145256F0EAC259 /* Pods */,
+				42038DFD3347858F64029ADC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCBE21EB1F590983008F754E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE21EA1F590983008F754E /* TestParallax.app */,
+				CCBE22031F590983008F754E /* TestParallaxTests.xctest */,
+				CCBE220E1F590983008F754E /* TestParallaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCBE21EC1F590983008F754E /* TestParallax */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE21F01F590983008F754E /* AppDelegate.h */,
+				CCBE21F11F590983008F754E /* AppDelegate.m */,
+				CCBE21F31F590983008F754E /* ViewController.h */,
+				CCBE21F41F590983008F754E /* ViewController.m */,
+				CCBE22201F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.h */,
+				CCBE22211F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.m */,
+				CCBE22221F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.xib */,
+				CCBE21F61F590983008F754E /* Main.storyboard */,
+				CCBE21F91F590983008F754E /* Assets.xcassets */,
+				CCBE21FB1F590983008F754E /* LaunchScreen.storyboard */,
+				CCBE21FE1F590983008F754E /* Info.plist */,
+				CCBE21ED1F590983008F754E /* Supporting Files */,
+			);
+			path = TestParallax;
+			sourceTree = "<group>";
+		};
+		CCBE21ED1F590983008F754E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE21EE1F590983008F754E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCBE22061F590983008F754E /* TestParallaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE22071F590983008F754E /* TestParallaxTests.m */,
+				CCBE22091F590983008F754E /* Info.plist */,
+			);
+			path = TestParallaxTests;
+			sourceTree = "<group>";
+		};
+		CCBE22111F590983008F754E /* TestParallaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE22121F590983008F754E /* TestParallaxUITests.m */,
+				CCBE22141F590983008F754E /* Info.plist */,
+			);
+			path = TestParallaxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCBE21E91F590983008F754E /* TestParallax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBE22171F590983008F754E /* Build configuration list for PBXNativeTarget "TestParallax" */;
+			buildPhases = (
+				8B7574760344A27649EA7570 /* [CP] Check Pods Manifest.lock */,
+				CCBE21E61F590983008F754E /* Sources */,
+				CCBE21E71F590983008F754E /* Frameworks */,
+				CCBE21E81F590983008F754E /* Resources */,
+				122BB97088A0C6A425A96B27 /* [CP] Embed Pods Frameworks */,
+				428821360BFA7ACAC6DAE005 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestParallax;
+			productName = TestParallax;
+			productReference = CCBE21EA1F590983008F754E /* TestParallax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCBE22021F590983008F754E /* TestParallaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBE221A1F590983008F754E /* Build configuration list for PBXNativeTarget "TestParallaxTests" */;
+			buildPhases = (
+				0ACEC71F3A6D8F3B6AC33362 /* [CP] Check Pods Manifest.lock */,
+				CCBE21FF1F590983008F754E /* Sources */,
+				CCBE22001F590983008F754E /* Frameworks */,
+				CCBE22011F590983008F754E /* Resources */,
+				EE979DB717A1D93C3E6FB2BA /* [CP] Embed Pods Frameworks */,
+				EB265810115A39C6B567E073 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCBE22051F590983008F754E /* PBXTargetDependency */,
+			);
+			name = TestParallaxTests;
+			productName = TestParallaxTests;
+			productReference = CCBE22031F590983008F754E /* TestParallaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCBE220D1F590983008F754E /* TestParallaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBE221D1F590983008F754E /* Build configuration list for PBXNativeTarget "TestParallaxUITests" */;
+			buildPhases = (
+				8EE888766AAFA29DA84BC14A /* [CP] Check Pods Manifest.lock */,
+				CCBE220A1F590983008F754E /* Sources */,
+				CCBE220B1F590983008F754E /* Frameworks */,
+				CCBE220C1F590983008F754E /* Resources */,
+				6921C9E3F1F4FA4261EDBE1B /* [CP] Embed Pods Frameworks */,
+				91713BBC9E064ABBB70CFA2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCBE22101F590983008F754E /* PBXTargetDependency */,
+			);
+			name = TestParallaxUITests;
+			productName = TestParallaxUITests;
+			productReference = CCBE220E1F590983008F754E /* TestParallaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCBE21E21F590983008F754E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jingjing;
+				TargetAttributes = {
+					CCBE21E91F590983008F754E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+					};
+					CCBE22021F590983008F754E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCBE21E91F590983008F754E;
+					};
+					CCBE220D1F590983008F754E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCBE21E91F590983008F754E;
+					};
+				};
+			};
+			buildConfigurationList = CCBE21E51F590983008F754E /* Build configuration list for PBXProject "TestParallax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCBE21E11F590983008F754E;
+			productRefGroup = CCBE21EB1F590983008F754E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCBE21E91F590983008F754E /* TestParallax */,
+				CCBE22021F590983008F754E /* TestParallaxTests */,
+				CCBE220D1F590983008F754E /* TestParallaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCBE21E81F590983008F754E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE22241F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.xib in Resources */,
+				CCBE21FD1F590983008F754E /* LaunchScreen.storyboard in Resources */,
+				CCBE21FA1F590983008F754E /* Assets.xcassets in Resources */,
+				CCBE21F81F590983008F754E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE22011F590983008F754E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE220C1F590983008F754E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ACEC71F3A6D8F3B6AC33362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		122BB97088A0C6A425A96B27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestParallax/Pods-TestParallax-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		428821360BFA7ACAC6DAE005 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestParallax/Pods-TestParallax-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6921C9E3F1F4FA4261EDBE1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestParallaxUITests/Pods-TestParallaxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B7574760344A27649EA7570 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EE888766AAFA29DA84BC14A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91713BBC9E064ABBB70CFA2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestParallaxUITests/Pods-TestParallaxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB265810115A39C6B567E073 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestParallaxTests/Pods-TestParallaxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE979DB717A1D93C3E6FB2BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestParallaxTests/Pods-TestParallaxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCBE21E61F590983008F754E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE22231F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.m in Sources */,
+				CCBE21F51F590983008F754E /* ViewController.m in Sources */,
+				CCBE21F21F590983008F754E /* AppDelegate.m in Sources */,
+				CCBE21EF1F590983008F754E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE21FF1F590983008F754E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE22081F590983008F754E /* TestParallaxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE220A1F590983008F754E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE22131F590983008F754E /* TestParallaxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCBE22051F590983008F754E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCBE21E91F590983008F754E /* TestParallax */;
+			targetProxy = CCBE22041F590983008F754E /* PBXContainerItemProxy */;
+		};
+		CCBE22101F590983008F754E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCBE21E91F590983008F754E /* TestParallax */;
+			targetProxy = CCBE220F1F590983008F754E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCBE21F61F590983008F754E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBE21F71F590983008F754E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCBE21FB1F590983008F754E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBE21FC1F590983008F754E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCBE22151F590983008F754E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCBE22161F590983008F754E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCBE22181F590983008F754E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E0E0C6BCA2AA7B6287A631 /* Pods-TestParallax.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = TestParallax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.TestParallax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCBE22191F590983008F754E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA963DEC5DCAA35AB5318CBB /* Pods-TestParallax.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = TestParallax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.TestParallax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCBE221B1F590983008F754E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E065091CBAA8B4BC42F08BE /* Pods-TestParallaxTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = TestParallaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.TestParallaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestParallax.app/TestParallax";
+			};
+			name = Debug;
+		};
+		CCBE221C1F590983008F754E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35280C43BC300CC319499CD /* Pods-TestParallaxTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = TestParallaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.TestParallaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestParallax.app/TestParallax";
+			};
+			name = Release;
+		};
+		CCBE221E1F590983008F754E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBC4FBE52C80CBE6C4658F2 /* Pods-TestParallaxUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = TestParallaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.TestParallaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestParallax;
+			};
+			name = Debug;
+		};
+		CCBE221F1F590983008F754E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7639F442ACDE672E5B75E225 /* Pods-TestParallaxUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = TestParallaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.TestParallaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestParallax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCBE21E51F590983008F754E /* Build configuration list for PBXProject "TestParallax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBE22151F590983008F754E /* Debug */,
+				CCBE22161F590983008F754E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBE22171F590983008F754E /* Build configuration list for PBXNativeTarget "TestParallax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBE22181F590983008F754E /* Debug */,
+				CCBE22191F590983008F754E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBE221A1F590983008F754E /* Build configuration list for PBXNativeTarget "TestParallaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBE221B1F590983008F754E /* Debug */,
+				CCBE221C1F590983008F754E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBE221D1F590983008F754E /* Build configuration list for PBXNativeTarget "TestParallaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBE221E1F590983008F754E /* Debug */,
+				CCBE221F1F590983008F754E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCBE21E21F590983008F754E /* Project object */;
+}
