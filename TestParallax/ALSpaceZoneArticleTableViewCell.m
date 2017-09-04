@@ -15,7 +15,6 @@
 
 @interface ALSpaceZoneArticleTableViewCell()
 
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *autherLayoutX;
 
 @end
 
@@ -23,7 +22,6 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    _autherNameL.text = @"阅读：3 · 评论：4";
     _titleL.text = @"华丽丽的标题文字";
     _thumbPathImg.image = [UIImage imageNamed:[NSString stringWithFormat:@"img%ld",random()%6 +1 ]];
     

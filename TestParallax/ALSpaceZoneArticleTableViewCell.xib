@@ -15,10 +15,10 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="375" height="199"/>
+                <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8603DC4F-3563-4234-BF88-07A9B20EF4D7" translatesAutoresizingMaskIntoConstraints="NO" id="RHj-9u-Tf3">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3818B057-6CF7-4396-9BB3-D47D40E7FBDA" translatesAutoresizingMaskIntoConstraints="NO" id="RHj-9u-Tf3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="199"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
@@ -35,12 +35,13 @@
             <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <connections>
                 <outlet property="thumbPathImg" destination="RHj-9u-Tf3" id="UpV-hS-SqS"/>
+                <outlet property="titleL" destination="1kB-FU-bRo" id="oRN-N5-gUG"/>
             </connections>
             <point key="canvasLocation" x="53.5" y="-10"/>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="8603DC4F-3563-4234-BF88-07A9B20EF4D7" width="632" height="782">
+        <image name="3818B057-6CF7-4396-9BB3-D47D40E7FBDA" width="632" height="782">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
