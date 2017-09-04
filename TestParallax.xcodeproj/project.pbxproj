@@ -20,6 +20,7 @@
 		CCBE22131F590983008F754E /* TestParallaxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE22121F590983008F754E /* TestParallaxUITests.m */; };
 		CCBE22231F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE22211F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.m */; };
 		CCBE22241F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCBE22221F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.xib */; };
+		CCBE224D1F594F45008F754E /* UITableViewCell+Parallax.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE224C1F594F45008F754E /* UITableViewCell+Parallax.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		CCBE22201F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSpaceZoneArticleTableViewCell.h; sourceTree = "<group>"; };
 		CCBE22211F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALSpaceZoneArticleTableViewCell.m; sourceTree = "<group>"; };
 		CCBE22221F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALSpaceZoneArticleTableViewCell.xib; sourceTree = "<group>"; };
+		CCBE224B1F594F45008F754E /* UITableViewCell+Parallax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Parallax.h"; sourceTree = "<group>"; };
+		CCBE224C1F594F45008F754E /* UITableViewCell+Parallax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Parallax.m"; sourceTree = "<group>"; };
 		F35280C43BC300CC319499CD /* Pods-TestParallaxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestParallaxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestParallaxTests/Pods-TestParallaxTests.release.xcconfig"; sourceTree = "<group>"; };
 		FA963DEC5DCAA35AB5318CBB /* Pods-TestParallax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestParallax.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestParallax/Pods-TestParallax.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,6 +156,8 @@
 				CCBE22201F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.h */,
 				CCBE22211F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.m */,
 				CCBE22221F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.xib */,
+				CCBE224B1F594F45008F754E /* UITableViewCell+Parallax.h */,
+				CCBE224C1F594F45008F754E /* UITableViewCell+Parallax.m */,
 				CCBE21F61F590983008F754E /* Main.storyboard */,
 				CCBE21F91F590983008F754E /* Assets.xcassets */,
 				CCBE21FB1F590983008F754E /* LaunchScreen.storyboard */,
@@ -475,6 +480,7 @@
 				CCBE22231F5909CD008F754E /* ALSpaceZoneArticleTableViewCell.m in Sources */,
 				CCBE21F51F590983008F754E /* ViewController.m in Sources */,
 				CCBE21F21F590983008F754E /* AppDelegate.m in Sources */,
+				CCBE224D1F594F45008F754E /* UITableViewCell+Parallax.m in Sources */,
 				CCBE21EF1F590983008F754E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

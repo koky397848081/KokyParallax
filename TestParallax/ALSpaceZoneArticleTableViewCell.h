@@ -16,6 +16,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *titleL;
 
 @property (nonatomic, assign) NSInteger commentCountValue;
-@property (nonatomic,assign)CGFloat cellOffSetY;/**< cell相对于window的便宜量x */
 
 @end

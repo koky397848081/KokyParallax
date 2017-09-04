@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ALSpaceZoneArticleTableViewCell.h"
+#import "UITableViewCell+Parallax.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate>
 {
@@ -24,7 +25,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - UITableViewDelegate,UITableViewDataSource -
@@ -42,13 +42,6 @@
         [tableView registerNib:[UINib nibWithNibName:@"ALSpaceZoneArticleTableViewCell" bundle:nil] forCellReuseIdentifier:@"ALSpaceZoneArticleTableViewCell"];
         cell = [tableView dequeueReusableCellWithIdentifier:@"ALSpaceZoneArticleTableViewCell"];
     }
-    //######################## 这里不加会有初始化和滑动时跳一下的bug ,还没处理。#######################
-
-    for (ALSpaceZoneArticleTableViewCell *cell in [_mainTableView visibleCells]) {
-        cell.cellOffSetY = [cell convertPoint:CGPointMake(cell.bounds.size.width * 0.5, cell.bounds.size.height * 0.5) toView:self.view].y;
-    }
-    //######################################################################
-
     return cell;
 }
 
@@ -73,7 +66,9 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
 
     for (ALSpaceZoneArticleTableViewCell *cell in [_mainTableView visibleCells]) {
-        cell.cellOffSetY = [cell convertPoint:CGPointMake(cell.bounds.size.width * 0.5, cell.bounds.size.height * 0.5) toView:self.view].y;
+        CGFloat offY = [cell convertPoint:CGPointMake(cell.bounds.size.width * 0.5, cell.bounds.size.height * 0.5) toView:self.view].y;
+        cell.cellOffSetY = @(offY);
+        [cell parellaxWithImageView:cell.thumbPathImg];
     }
 }
 
